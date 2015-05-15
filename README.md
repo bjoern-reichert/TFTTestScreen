@@ -16,11 +16,11 @@ $ cd TFTTestScreen/
 $ nano screen_320x240.py or nano screen_480x320.py
 ```
 Change the variables for your system: 
-
+```
 os.environ["SDL_FBDEV"] = "/dev/fb1"
 os.environ["SDL_MOUSEDRV"] = "TSLIB"
 os.environ["SDL_MOUSEDEV"] = "/dev/input/touchscreen"
-
+```
 ### Run
 ```
 $ python screen_320x240.py or python screen_480x320.py
