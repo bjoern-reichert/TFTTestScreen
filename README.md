@@ -21,7 +21,14 @@ os.environ["SDL_FBDEV"] = "/dev/fb1"
 os.environ["SDL_MOUSEDRV"] = "TSLIB"
 os.environ["SDL_MOUSEDEV"] = "/dev/input/touchscreen"
 ```
+
 ### Run
 ```
 $ python screen_320x240.py or python screen_480x320.py
+```
+
+### Stop
+Touch the text or run
+```
+$ killall python
 ```
