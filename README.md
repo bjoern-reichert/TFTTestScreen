@@ -34,3 +34,5 @@ Touch the text or run
 ```
 $ killall python
 ```
+
+[DE-Version http://www.opendisplaycase.de](http://www.opendisplaycase.de)
